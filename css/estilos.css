@@ -1,0 +1,43 @@
+.categorias{
+
+    background-color: #000;
+
+
+}
+
+.categorias__card{
+
+    background-color: rgb(234, 242, 11);
+    width: 250px;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.enFilas{
+    display:flex;
+    flex-direction:row;
+}
+
+.enColumnas{
+    display:flex;
+    flex-direction:column;
+}
+
+.container{
+    background-color: rgb(0, 255, 0);
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+ }
+
+ .categorias__card-img{
+   
+    background-color: rgb(242, 103, 11);
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+ }
