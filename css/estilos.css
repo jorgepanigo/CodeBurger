@@ -1,6 +1,7 @@
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 /*Fonts*/
 
 /*Variable Globales*/
@@ -11,6 +12,7 @@
     --negro3:#231F20;
 
     --bebas:'Bebas Neue', cursive;
+    --oswald: 'Oswald', sans-serif;
 
 }
 /*Variable Globales*/
@@ -140,6 +142,8 @@ header{
     justify-content: space-around;
     align-items: center;  
     font-size: 2.4rem; 
+    font-family: var(--oswald);
+    font-weight: 200;
 }
 
 
