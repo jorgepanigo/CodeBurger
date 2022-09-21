@@ -1,15 +1,21 @@
 
 /*Fonts*/
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*Fonts*/
 
 /*Variable Globales*/
 :root{
     --amarillo:#FFF200;
-    --negro:#1E1E1E;
+    --negro1:#1E1E1E;
+    --negro2:#414042;
+    --negro3:#231F20;
+
+    --bebas:'Bebas Neue', cursive;
 
 }
 /*Variable Globales*/
+
+
 
 .categorias{
     background-color: #000;
