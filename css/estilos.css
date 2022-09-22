@@ -162,6 +162,10 @@ header{
     font-weight: 200;
 }
 
+.navbar a{
+    color: var(--amarillo);
+}
+
 .navbar a:active{
     color: var(--amarillo);
 }
