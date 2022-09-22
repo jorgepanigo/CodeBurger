@@ -6,6 +6,7 @@
 
 /*Variable Globales*/
 :root{
+    --blanco:#ffffff;
     --amarillo:#FFF200;
     --negro1:#1E1E1E;
     --negro2:#414042;
@@ -22,20 +23,51 @@ body{
     background-color: #000;
 }
 
-.titulo{
+/*Titulo se seccion genrico*/
 
+.titulo{
     background-image: url('/assets/fondo_mosaico_titulo.svg');
     background-size: 140px;
     height: 180px;
-    font-size: 5rem;
-    color: var(--amarillo);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
+.titulo__texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.titulo__texto-nombre{
+    color:var(--amarillo);
+    font-size: 3.5rem; 
+}
+
+.titulo__texto-descripcion{
+    color:var(--blanco);
+    font-size: 1.5rem;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+}
+
+.titulo__img img{
+    height: 65px;
+    width: 65px;
+}
+
+.titulo__img{
+    background-color: var(--amarillo);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Fin Titulo se seccion genrico*/
 
 .categorias{
     background-color: #000;
