@@ -281,11 +281,25 @@ header{
 /*Fin Portada*/
 
 /*Menu*/
-.menu__card__texto{
+.burger__card__texto{
     color: var(--blanco);
 }
 
-.menu__card__texto-nombre{
+.burger__card__texto-nombre{
+    color: var(--amarillo);
+    font-size: 1.5rem;
+}
+.birra__card__texto{
+    color: var(--blanco);
+}
+.birra__card__texto-nombre{
+    color: var(--amarillo);
+    font-size: 1.5rem;
+}
+.snack__card__texto{
+    color: var(--blanco);
+}
+.snack__card__texto-nombre{
     color: var(--amarillo);
     font-size: 1.5rem;
 }
