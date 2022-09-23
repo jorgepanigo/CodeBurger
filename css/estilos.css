@@ -230,9 +230,11 @@ header{
 /*Portada*/
 
 .portada{
+   
     position: relative;
     height: 400px;
     padding-bottom: 30px;
+    background-size: cover !important;
 }
 
 .portada__img{
