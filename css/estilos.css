@@ -279,3 +279,13 @@ header{
 }
 
 /*Fin Portada*/
+
+/*Menu*/
+.menu__card__texto{
+    color: var(--blanco);
+}
+
+.menu__card__texto-nombre{
+    color: var(--amarillo);
+    font-size: 1.5rem;
+}
