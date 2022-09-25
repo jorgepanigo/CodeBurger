@@ -137,18 +137,13 @@ body{
     
  /*Fin categorias*/
 
-
  .delivery{
     background-color:var(negro2-);
 }
 
-
-
 .delivery__card-img{
-    background-color: rgb(255, 11, 242);
     width: 200px;
     height: 200px;
-    border-radius:50%;
 }
 
 .delivery__card{
@@ -169,6 +164,12 @@ body{
     align-items: center;
     justify-content: space-around;
 
+}
+
+.delivery__card-detalle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* .delivery__texto{
