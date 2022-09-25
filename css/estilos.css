@@ -72,24 +72,8 @@ body{
 }
 /*Fin Titulo se seccion genrico*/
 
-.categorias{
-    background-image: url('/assets/img/fondo_mosaico_titulo.svg');
-    background-size: 140px;
-    height: 210px;
-    margin-top: 40px;
-}
 
-
-.categorias__card{
-
-    background-color: rgb(234, 242, 11);
-    width: 250px;
-    height: 350px;
-    align-items: center;
-    justify-content: space-around;
     
-}
-
 .enFilas{
     display:flex;
     flex-direction:row;
@@ -109,14 +93,50 @@ body{
     
  }
 
- .categorias__card-img{
-   
-    background-color: rgb(242, 103, 11);
-    width: 200px;
-    height: 200px;
-    border-radius:50%;
+ /*categorias*/
+
+ .categorias__flex{
+
+    display:flex;
+    flex-direction:row;
 
  }
+
+ .categorias__card-img{
+    background-color: var(--amarillo);
+    width: 175px;
+    height: 175px;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .categorias__card-texto{
+    font-family: var(--oswald);
+    font-size: 2.1rem;
+    color:var(--amarillo);
+
+ }
+
+ .categorias{
+    background-image: url('/assets/img/fondo_mosaico_titulo.svg');
+    background-size: 140px;
+    height: 180px;
+ }
+
+.categorias__card{
+    width: 250px;
+    height: 240px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+ /*Fin categorias*/
+
 
  .delivery{
     background-color:var(negro2-);
