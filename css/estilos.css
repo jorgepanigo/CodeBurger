@@ -25,7 +25,7 @@ body{
     background-color: #000;
 }
 
-/*Titulo se seccion genrico*/
+/*Titulo de seccion generico*/
 
 .titulo{
     background-image: url('/assets/img/fondo_mosaico_titulo.svg');
@@ -70,10 +70,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-/*Fin Titulo se seccion genrico*/
-
-
-    
+/*Fin Titulo de seccion generico*/
+   
 .enFilas{
     display:flex;
     flex-direction:row;
@@ -134,8 +132,10 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-    
+   
  /*Fin categorias*/
+
+ /* Delivery */
 
  .delivery{
     background-color:var(negro2-);
@@ -183,6 +183,7 @@ body{
     font-size: 30px;
 } */
 
+/*Fin Delivery */
 
 /* NavBar */
 header{
@@ -405,4 +406,4 @@ header{
 .snack__card__texto-nombre{
     color: var(--amarillo);
     font-size: 1.5rem;
-}
+}/*Fin Menu*/
