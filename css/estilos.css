@@ -71,17 +71,6 @@ body{
     align-items: center;
 }
 /*Fin Titulo de seccion generico*/
-   
-.enFilas{
-    display:flex;
-    flex-direction:row;
-}
-
-.enColumnas{
-    display:flex;
-    flex-direction:column;
-    
-}
 
 .container{
     
@@ -171,6 +160,18 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+
+.delivery__flex{
+    display:flex;
+    flex-direction:row;
+
+}
+
+.delivery__flex__columnas{
+    display:flex;
+    flex-direction:column;
+}
+
 
 /* .delivery__texto{
     background-color: rgb(242, 11, 169);
