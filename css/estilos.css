@@ -28,7 +28,7 @@ body{
 /*Titulo de seccion generico*/
 
 .titulo{
-    background-image: url('/assets/img/fondo_mosaico_titulo.svg');
+    background-image: url('../assets/img/fondo_mosaico_titulo.svg');
     background-size: 140px;
     height: 180px;
     display: flex;
@@ -107,7 +107,7 @@ body{
  }
 
  .categorias{
-    background-image: url('/assets/img/fondo_mosaico_titulo.svg');
+    background-image: url('../assets/img/fondo_mosaico_titulo.svg');
     background-size: 140px;
     height: 180px;
  }
