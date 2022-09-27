@@ -11,7 +11,7 @@
     --negro1:#1E1E1E;
     --negro2:#414042;
     --negro3:#231F20;
-
+    --gris1:#6D6E71;
     --bebas:'Bebas Neue', cursive;
     --oswald: 'Oswald', sans-serif;
 
@@ -409,23 +409,105 @@ a:active{
 /*Fin Portada*/
 
 /*Menu*/
+.menu__flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.burger__card{
+    width: 250px;
+    height: 300px;
+    background-color: var(--gris1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 100px 100px 0 100px;
+    align-items: center;
+}
 .burger__card__texto{
     color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: -15px;
+}
+/*controlar calidad imagen hamburguesas*/
+.burger__card__img{
+    margin-top: -100px;
 }
 
-.burger__card__texto-nombre{
+.menu__card__texto-nombre{
     color: var(--amarillo);
-    font-size: 1.5rem;
+    font-size: 3.5rem;
+
+}
+.menu__card__texto-descripcion{
+    font-family: var(--oswald);
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.burger{
+background-color: var(--negro2);
+padding-top: 40px;
+padding-bottom: 80px;
+border-bottom: 6px solid var(--amarillo);
+}
+.snacks{
+    background-color: var(--negro3);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    border-bottom: 6px solid var(--amarillo);
+}
+.birra{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.birra__card{
+    display: flex;
+    width: 30%;
+    height: 300px;
+    align-items: center;
+    padding: 60px 0 40px 0;
+
 }
 .birra__card__texto{
     color: var(--blanco);
+    margin-left: -20px;
 }
 .birra__card__texto-nombre{
     color: var(--amarillo);
-    font-size: 1.5rem;
+    font-size: 2rem;    
+}
+.birra__card__texto-descripcion{
+    font-family: var(--oswald);
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.snack__card{
+    width: 280px;
+    height: 200px;
+    background-color: var(--gris1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 140px 80px 0 80px;
+    align-items: center;
 }
 .snack__card__texto{
     color: var(--blanco);
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: -25px;
+}
+.snack__card__img{
+    margin-top: -150px;
 }
 .snack__card__texto-nombre{
     color: var(--amarillo);
