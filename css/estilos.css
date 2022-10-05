@@ -609,7 +609,10 @@ footer{
     padding: 10px 0 10px;
 }
 
-.nosotros__img{
-    
-}
+.container__nosotros-flex{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
 
