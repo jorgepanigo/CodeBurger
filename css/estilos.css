@@ -586,3 +586,30 @@ footer{
 
 
 /*Fin Footer*/
+
+/*Inicio Nosotros*/
+
+.nosotros__texto-simple{
+    color: var(--blanco);
+    font-family: var(--oswald);
+    font-size: 1.2rem;
+    font: weight 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros__texto-destacado{
+    color: var(--amarillo);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 10px;
+}
+
+.nosotros__img{
+    
+}
+
