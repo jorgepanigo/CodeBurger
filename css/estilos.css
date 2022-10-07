@@ -707,10 +707,17 @@ footer{
     background-color:rgb(142, 142, 12);
 }
 
- 
-
-
-
-
-
 /*Fin Contacto*/
+
+/*Inicio Mapa*/
+
+.mapa{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.mapa__flex{
+    display: flex;
+    align-items: center;
+}
+
+/*Fin Mapa*/
