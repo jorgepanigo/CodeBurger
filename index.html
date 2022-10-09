@@ -152,7 +152,7 @@
                <div class="container video__flex">
 
 
-                    <div class="video__play">
+                    <div id="botonPlay" class="video__play">
 
                          <i class="fa-solid fa-play"></i>
                     </div>
@@ -160,12 +160,12 @@
                     <p class="titulo__texto-descripcion">Descripcion del video</p>
                </div>
           </section>
-          <div class="fullscreen">
-               <i class="fa-solid fa-xmark "></i>
-               <iframe width="896" height="500" src="https://www.youtube.com/embed/kv6O66x765A" title="" frameborder="0"
-                    allow="autoplay" controls="2" allowfullscreen></iframe>
+          <div id="reproductor" class="fullscreen_close fullscreen">
+               <i id ="botonCerrar" class="fa-solid fa-xmark "></i>
+               <iframe id="youTube" width="896" height="500" src="https://www.youtube.com/embed/kv6O66x765A?autoplay=0&controls=0&enablejsapi=1" title="" frameborder="0"
+                    controls="2" allowfullscreen></iframe>
           </div>
-
+          
 
           <!-- Fin Video Institucional -->
 
@@ -279,7 +279,7 @@
           </div>
 
      </footer>
-
+<script src="js/reproductor.js"> </script>
 
 </body>
 

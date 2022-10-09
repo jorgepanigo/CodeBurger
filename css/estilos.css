@@ -761,11 +761,18 @@ video{
     background-color: rgba(0, 0, 0, 0.85); 
     color: rgba(0, 0, 0, 0.8);
     z-index: 9999999;  
-    display:none;
-    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.fullscreen_show{
+    display: flex;
+}
+
+.fullscreen_close{
+    display:none;
 }
 
 .fullscreen i{ 
