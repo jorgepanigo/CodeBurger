@@ -730,6 +730,7 @@ video{
     align-items: center;
     top:30%;
     left:calc(50% - 225px);
+    height: 200px;
 
  
 }
@@ -746,10 +747,14 @@ video{
     width: 75px;
     height: 75px;
     padding-left: 5px;
+    
+    
 }
 
 .video__play:hover{
     background-color:rgb(142, 142, 12);
+    scale: 110%;
+    transition: all 0.5s;
 }
 
 .fullscreen{
@@ -765,14 +770,17 @@ video{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+ 
 }
 
 .fullscreen_show{
-    display: flex;
+    display:flex;
+    
 }
 
 .fullscreen_close{
     display:none;
+   
 }
 
 .fullscreen i{ 
