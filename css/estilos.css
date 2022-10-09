@@ -128,49 +128,46 @@ body{
 
  .delivery{
     background-color:var(--negro3);
-    padding-bottom: 10px;
+    padding: 30px 0px;
 }
 
 .delivery__card-img{
     width: 200px;
     height: 200px;
+    margin:0px 10px;
 }
 
 .delivery__card{
-
+    display: flex;
+    flex-direction: row;
     background-color: var(--negro3);
     width: 550px;
     height: 230px;
     align-items: center;
     justify-content:space-around;
+    border: 1.5px solid var(--amarillo);
+    border-radius: 50px;
+    padding: 5px;
+
     
 }
 
-.delivery__partners{
-
-    background-color: var(--negro3);
-    max-width: 1366px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
-
-}
 
 .delivery__card-detalle{
+    width: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
+    align-items:initial;
     justify-content: space-around;
-    margin-left:-70px;
+    margin: 0px 20px;
+    
 }
 
 .delivery__flex{
     display:flex;
     flex-direction:row;
-}
-
-.delivery__flex__columnas{
-    display:flex;
-    flex-direction:column;
+    padding:30px 0px;
 }
 
 
@@ -178,33 +175,23 @@ body{
     font-family: var(--oswald);
     font-size: 2.1rem;
     color:var(--blanco);
-    margin: 0% 0% 6% 20%;
 }
 
 .delivery__card-button{
     background-color:var(--amarillo);
     border: none;
     color: var(--negro1);
-    padding: 10px 85px 10px 20px;
-    text-align: center;
-    text-decoration: none;
     font-family: var(--bebas);
-    display: inline-block;
     font-size: 30px;
-    margin: 0px 0px 0px 50px;
     cursor: pointer;
     border-radius: 10px 10px 10px 10px;
+    padding:5px 10px;
+    letter-spacing: 0.2rem;
           
 }
 
 .delivery__card-button:hover{
     background-color:rgb(142, 142, 12);
-}
-
-.delivery__card-border{
-    border: 1.5px solid var(--amarillo);
-    border-radius: 50px;
-    padding: 5px;
 }
 
 /*Fin Delivery */
