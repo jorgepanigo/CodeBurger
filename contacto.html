@@ -59,20 +59,20 @@
                     </div>
                     <div class="contacto__vias">
                          <h3 class="contacto__vias-titulo">DEJANOS TU COMENTARIO O SUGERENCIA</h3>
-                         <form action="" class="contacto__form">
+                         <form id="form" class="contacto__form">
                               <div class="contacto__group">
-                                   <label for="" class="contacto__form-label">Nombre y apellido</label>
-                                   <input type="text" class="contacto__form-input">
+                                   <label class="contacto__form-label">Nombre y apellido</label>
+                                   <input name="to_name" type="text" class="contacto__form-input">
                               </div>
                               
                               <div class="contacto__group">
-                                   <label for="" class="contacto__form-label">Correo electrónico</label>
-                                   <input type="text" class="contacto__form-input">
+                                   <label class="contacto__form-label">Correo electrónico</label>
+                                   <input name="client_mail" type="text" class="contacto__form-input">
                               </div>
 
                               <div class="contacto__group">
-                                   <label for="" class="contacto__form-label">Dejanos tu comentario</label>
-                                   <textarea type="text" rows="20" col="100" class="contacto__form-input contacto__textArea"></textarea>
+                                   <label class="contacto__form-label">Dejanos tu comentario</label>
+                                   <textarea name="message" type="text" rows="20" col="100" class="contacto__form-input contacto__textArea"></textarea>
                               </div>
 
                               <input type="submit" class="contacto__button" value="ENVIAR">
@@ -144,6 +144,7 @@
           </div>
 
      </footer>
+     <script src="js/email.js"></script>
 </body>
 
 </html>
