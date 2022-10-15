@@ -1,8 +1,42 @@
  const form = document.getElementById("form");
  
- form.addEventListener("submit",enviarMail);
+ form.addEventListener("submit",validar);
+
+
+ function validar(e){
+    e.preventDefault();
+    if (validarNombre()){
+        alert("Tiene que escribir su nombre")
+        form.to_name.focus()
+        return 0
+    }
+
+    if (!validarEmail()){
+        alert("Escriba correctamente el mail")
+        form.client_mail.focus()
+        return 0
+    }
+
+    enviarMail(e)
+    console.log("Mail enviado")
+    limpiarFormulario()
+ }
+
+ function validarNombre() {
+    return form.to_name.value.length  == 0
+}
  
- function enviarMail(e){
+
+
+function validarEmail() { 
+    const regexMail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    console.log(regexMail.test(form.client_mail.value))
+    return regexMail.test(form.client_mail.value)
+}
+
+ 
+ 
+function enviarMail(e){
 
     e.preventDefault();
     
@@ -13,13 +47,14 @@
     formData.append('user_id', 'ZjZ2ytwul3NqTvoVr');
     formData.append('from_name', 'CodeBurger');
     formData.append('mail_codeburger', 'jorgepanigo@gmail.com');
-    //formData.append('reply_to', 'jorgepanigo@gmail.com');
-    // formData.append('client_mail', 'lucaskeklikian@gmail.com');
      
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'https://api.emailjs.com/api/v1.0/email/send-form', true);
     xhr.onload = function () {
         console.log("Mail enviado el cliente: "+this.responseText)
+        if (this.responseText == "OK"){
+            alert("Gracias! Hemos recibido tu comentario")
+        }
     };
     
     xhr.send(formData);
@@ -33,4 +68,12 @@
     };
     
     xhr1.send(formData);
+
+}
+
+function limpiarFormulario(){
+    
+    form.to_name.value = ""
+    form.client_mail.value = ""
+    form.message.value = ""
 }
