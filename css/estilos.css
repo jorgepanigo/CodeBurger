@@ -440,7 +440,7 @@ a:active{
 
 .menu__card__texto-nombre{
     color: var(--amarillo);
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 
 }
 .menu__card__texto-descripcion{
@@ -589,10 +589,41 @@ footer{
 
 /*Inicio Nosotros*/
 
+
+.nosotros__fondo{
+    background-image: url('../assets/img/fondo_mosaico_titulo.svg');
+    background-size: 140px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.nosotros-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}   
+
+.nosotros_img{
+    width: 40%;
+    Padding: 20px;
+}
+
+.nosotros__texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nosotros__texto-simple{
     color: var(--blanco);
     font-family: var(--oswald);
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font: weight 300px;
     width: 50%;
     display: flex;
@@ -602,17 +633,21 @@ footer{
 
 .nosotros__texto-destacado{
     color: var(--amarillo);
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px 0 10px;
+    /*margin: 5px;*/
+    background-image: url("../assets/img/fondo_texto_destacado.png");
+    background-image: cover;
+   /*font-size: 3rem;
+    padding-top: 4px;*/
 }
 
-.container__nosotros-flex{
-    width: 50%;
+/*.nosotros__texto-detalle{
+    width: 20px;
+    margin-left:-70px; 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
- }
-
+    flex-direction: column;  GIT
+}*/
