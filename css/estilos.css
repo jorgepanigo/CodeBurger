@@ -864,7 +864,7 @@ video{
 
 /*Corte Mobile*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
 
     .container{
         max-width: 350px;  
@@ -1049,7 +1049,7 @@ video{
 
 /*Corte Tablet*/
 
-@media only screen and (min-width:401px) and (max-width:768px){
+@media only screen and (min-width:640px) and (max-width:1280px){
 
     .container{
         max-width: 758px;
