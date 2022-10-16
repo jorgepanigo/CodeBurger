@@ -121,6 +121,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+.categorias__card:hover{
+    scale:1.1;
+    transition:all 0.4s;
+}
+
    
  /*Fin categorias*/
 
