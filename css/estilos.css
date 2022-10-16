@@ -18,8 +18,8 @@
     --altoNavBar:150px;
 
 }
-/*Variable Globales*/
 
+/*Variable Globales*/
 body{
     font-family: var(--bebas);  
     background-color: #000;
@@ -853,8 +853,10 @@ video{
 
 /*Fin Video*/
 
+
 /*Comienzo Responsive*/
 
+/*Corte Mobile*/
 
 @media only screen and (max-width: 400px) {
 
@@ -864,7 +866,7 @@ video{
 
 
 
-    .navbar{
+        .navbar{
         position: sticky;
         top:0;
         flex-direction: column;
@@ -1036,8 +1038,195 @@ video{
         text-align: center;       
     }
 
-    
 }
+/*Fin corte Mobile*/    
+
+/*Corte Tablet*/
+
+@media only screen and (min-width:401px) and (max-width:768px){
+
+    .container{
+        max-width: 758px;
+    }
+
+    .navbar{
+        position: sticky;
+        top:0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0px 25px;
+        z-index: 99999;
+        
+         
+    }
+    
+    .navbar__logo{
+        position: relative;
+        width: 120px;
+        height:120px;
+        background-color: var(--negro1);
+        margin:0px;
+        align-content: flex-end;
+        padding: 15px;
+        
+    }
+
+    .navbar div{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 120px;
+        
+    }
+
+    .navbar i{
+        display:contents;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    
+    .navbar__menu__mostar{
+        position: absolute;
+        top:0px;
+        display:flex;
+    }
+
+    .navbar__menu__ocultar{
+        position: absolute;
+        top:-700px;
+        display:none;
+    }
+
+
+    .navbar__menu{
+        background-color: var(--negro1);
+        position:fixed;
+        top:120px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 30px;
+     
+    }
+
+    .navbar__menu-item{
+        padding: 30px 0px;
+        border-bottom: var(--amarillo) solid 1px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .birra__card{
+        width: 50%;   
+    }
+
+    .burger__card__img{
+        margin-top: -100px;
+    }
+
+    .burger__card{
+        margin: 100px 50px 0px 50px;
+    }
+
+    .snack__card__img{
+        margin-top: -150px;
+        scale:0.9;
+    }
+
+    .snack__card{
+        margin: 140px 40px 0 40px; 
+    }
+    
+    .footer__flex{
+        flex-direction: column;
+    }
+
+    .portada__titulo{
+        font-size: 3.5rem;
+    }
+
+    .portada__texto{
+        font-size: 1.3rem;
+    }
+
+    .portada{
+        height: 250px;
+    }
+    
+    .portada__contenido{
+        height: 250px;      
+    }
+
+   
+
+    .video__flex h3{
+        display:none;
+
+    }
+
+    .video__flex p{
+        display:none;
+
+    }
+
+    .video__flex {
+        top: 50px;
+        left:calc(50% - 220px);
+    }
+
+    .fullscreen iframe{
+        width: 100%;
+    }
+
+    .footer__columna{
+        flex-direction: column;
+        width: 50%;
+        height: 200px;
+        align-items: center;
+        justify-content: space-between;  
+    }
+
+    .footer__flex{
+        padding: 30px 0 70px 0;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .footer__columna-lista{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;        
+    }
+
+    .footer__columna:nth-child(2){
+        display:none;
+    }
+
+    .footer__columna:first-child{
+        padding: 0px 40px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer__columna-item{
+        text-align: center;       
+    } 
+
+    .footer__columna-titulo{
+        text-align: center;       
+    } 
+
+   
+}
+
+/*Fin Corte Tablet*/
 
 /*Fin Responsive*/
 
