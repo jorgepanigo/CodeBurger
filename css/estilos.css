@@ -692,10 +692,18 @@ footer{
  .contacto__vias-texto{
     font-size: 1.3rem;
     font-family: var(--oswald);
+    font-weight: 200;
     color:var(--blanco);
     padding-top: 10px;
     padding-bottom: 25px;
     line-height: 30px;
+}
+
+.contacto__vias i {
+    font-size: 25px;
+    color: var(--amarillo);
+    margin: 9px 20px 9px 50px;
+    
 }
 
 .contacto__form{
@@ -726,9 +734,14 @@ footer{
     background-color:var(--negro3);
     border:none;
     border-bottom:1px solid var(--amarillo);
-    height:35px;
+    height:50px;
     color: var(--blanco);
+    font-family: var(--oswald);
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
  }
+
  
  .contacto{
     padding-top: 70px;
@@ -950,6 +963,8 @@ video{
         align-content:center;
     }
 
+    
+
     .birra__card{
         width: 100%;   
     }
@@ -1043,6 +1058,54 @@ video{
     .footer__columna-titulo{
         text-align: center;       
     }
+
+    .contacto__flex{
+        flex-direction: column;
+    }
+
+    .contacto__vias{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .contacto__vias-titulo{
+       text-align: center;
+    }
+    .contacto__vias-texto{
+       text-align: center;
+    }
+
+    .contacto__vias-texto i{
+        margin:0;
+    }
+
+    .contacto__button{
+        width: 100%;
+    }
+    
+    .nosotros-flex{
+        flex-direction: column;
+    }
+
+    .nosotros__texto{
+        width: 100%;
+    }   
+   .nosotros_img{
+        width: 100%;
+   }
+
+   .nosotros__texto-simple{
+        font-size: 1.5rem;
+        font-weight: 200;
+
+   }
+
+   .nosotros__container-destacado h3{
+        font-size: 1.6rem;
+        text-align: center;
+   }
+
+
 
 }
 /*Fin corte Mobile*/    
