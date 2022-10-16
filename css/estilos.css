@@ -154,8 +154,6 @@ body{
     border: 1.5px solid var(--amarillo);
     border-radius: 50px;
     padding: 5px;
-
-    
 }
 
 
@@ -963,8 +961,83 @@ video{
         align-content:center;
     }
 
+    .categorias__flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categorias{
+        height: auto;
+    }
+
+    .categorias__card{
+        margin-top: 60px;
+    }
+
+    .promociones__card{
+        width: 100%;
+        height:fit-content;
+        flex-direction: column;
+        margin-top: 15px;
+       
+        
+    }
+
+    .promociones__card-detalle{     
+        
+        width: 100%;
+        margin-left:0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        clip-path: none;
+        border-radius: 0px 0px 0px 0px;
+
+    }
+    /* .promociones__card-detalle:last-child{
+        width: 100%;
+    }   */
+
     
 
+    
+
+    .promociones__card-beneficio{
+        height: 150px;
+        width: 100%;
+        clip-path: none;
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+
+
+    .delivery__card-titulo{
+        text-align: center;
+    }
+
+    .titulo__texto-nombre{
+        text-align: center;
+    }
+   
+
+    .delivery__flex{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .delivery__card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        scale:0.7;
+        width: 100%;
+        margin:0;
+        padding:0;
+        height: 400px;
+        padding:10px;
+
+    }
     .birra__card{
         width: 100%;   
     }
