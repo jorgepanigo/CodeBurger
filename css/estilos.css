@@ -423,12 +423,14 @@ a:active{
 /*controlar calidad imagen hamburguesas*/
 .burger__card__img{
     margin-top: -100px;
+    display:flex;
+    scale:1.3;
 }
 
 .menu__card__texto-nombre{
     color: var(--amarillo);
     font-size: 2.5rem;
-
+    margin-top: 40px;
 }
 .menu__card__texto-descripcion{
     font-family: var(--oswald);
@@ -841,4 +843,125 @@ video{
 }
 
 /*Fin Video*/
+
+/*Comienzo Responsive*/
+
+
+@media only screen and (max-width: 400px) {
+
+    .container{
+        max-width: 350px;  
+    }
+
+    .navbar{
+      flex-direction:column;   
+    }
+   
+    .navbar__menu{
+        flex-direction: column;
+        z-index: 9999;
+    }        
+    .menu__flex{
+        flex-direction: column;
+        align-content:center;
+    }
+
+    .birra__card{
+        width: 100%;   
+    }
+
+    .burger__card__img{
+        margin-top: -100px;
+    }
+
+    .snack__card__img{
+        margin-top: -150px;
+        scale:0.9;
+    }
+    
+    .footer__flex{
+        flex-direction: column;
+    }
+
+    .titulo{
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .titulo__texto{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .titulo__texto-descripcion{
+       display:none;
+    }
+    .portada__titulo{
+        font-size: 3.5rem;
+    }
+
+    .portada__texto{
+        font-size: 1.3rem;
+    }
+
+    .portada{
+        height: 250px;
+    }
+    
+    .portada__contenido{
+        height: 250px;      
+    }
+
+    .footer__columna{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;  
+    }
+
+    .footer__flex{
+        padding: 30px 0 70px 0;
+    }
+
+    .video__flex h3{
+        display:none;
+
+    }
+
+    .video__flex p{
+        display:none;
+
+    }
+
+    .video__flex {
+        top:-16px;
+        left:calc(50% - 175px);
+    }
+
+    .fullscreen iframe{
+        width: 100%;
+    }
+
+    .footer__marca-texto{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer__columna-lista{
+        align-items: center;
+        margin-bottom: 20px;        
+    }
+
+    .footer__columna-datocontacto{
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer__columna-titulo{
+        text-align: center;       
+    }
+
+    
+}
+
+/*Fin Responsive*/
 
