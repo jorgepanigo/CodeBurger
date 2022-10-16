@@ -201,7 +201,12 @@ header{
     background-color: var(--negro1);
 }
 
+
+
 .navbar{
+    /* max-width: 1366px; */
+    margin: auto;
+    padding: 0px 8%;
     background-color: var(--negro1);
     color:var(--amarillo);
     height: var(--altoNavBar);
@@ -211,12 +216,16 @@ header{
      
 }
 
+.navbar i {
+    display: none;
+}
+
 .navbar__logo{
-    
+    position:absolute;
     width: 250px;
     height: 250px;
     margin: 0px 0px 0px 60px;
-    z-index: 999;
+    z-index: 999999;
     padding: 30px 30px 0px 30px;
     background-color: var(--negro1);
     
@@ -853,14 +862,81 @@ video{
         max-width: 350px;  
     }
 
+
+
     .navbar{
-      flex-direction:column;   
-    }
-   
-    .navbar__menu{
+        position: sticky;
+        top:0;
         flex-direction: column;
-        z-index: 9999;
-    }        
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0px 25px;
+        z-index: 99999;
+        
+         
+    }
+    
+    .navbar__logo{
+        position: relative;
+        width: 120px;
+        height:120px;
+        background-color: var(--negro1);
+        margin:0px;
+        align-content: flex-end;
+        padding: 15px;
+        
+    }
+
+    .navbar div{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 120px;
+        
+    }
+
+    .navbar i{
+        display:contents;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    
+    .navbar__menu__mostar{
+        position: absolute;
+        top:0px;
+        display:flex;
+    }
+
+    .navbar__menu__ocultar{
+        position: absolute;
+        top:-700px;
+        display:none;
+    }
+
+
+    .navbar__menu{
+        background-color: var(--negro1);
+        position:fixed;
+        top:120px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 30px;
+     
+    }
+
+    .navbar__menu-item{
+        padding: 30px 0px;
+        border-bottom: var(--amarillo) solid 1px;
+        width: 70%;
+        text-align: center;
+    }
+    
+         
     .menu__flex{
         flex-direction: column;
         align-content:center;

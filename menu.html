@@ -13,13 +13,13 @@
 </head>
 
 <body>
-     <!-- Comienzo Header -->
-     <header>
-          <div class="container">
                <nav class="navbar">
-                    
-                         <img class="navbar__logo" src="assets/img/logo.svg" alt="logo" />
-                         <ul class="navbar__menu">
+                         <div>
+                              <img class="navbar__logo" src="assets/img/logo.svg" alt="logo" />
+                              <i id="botonMenuMobile" class="fa-solid fa-bars"></i>
+                         </div>
+                         
+                         <ul class="navbar__menu__ocultar navbar__menu">
                               <li class="navbar__menu-item"><a href="index.html">Home</a></li>
                               <li class="navbar__menu-item"><a href="menu.html">Menu</a> </li>
                               <li class="navbar__menu-item"><a href="nosotros.html">Nosotros</a></li>
@@ -27,8 +27,9 @@
                          </ul>
 
                </nav>
-          </div>
-
+  
+          <!-- Comienzo Header -->
+          <header>
      <!-- Inicio de Portada -->
                <section 
                     class="portada" 
@@ -324,6 +325,8 @@
 
      </footer>
      <script src="js/reproductor.js"> </script>
+     <script src="js/menu.js"> </script>
+
 </body>
 
 </html>

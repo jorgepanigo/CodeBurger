@@ -7,29 +7,35 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/estilos.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
      <title>CodeBurger</title>
 </head>
 
 <body>
-     <!-- Comienzo header-->
-     <header>
-          <div class="container">
-               <nav class="navbar">
-
-                    <img class="navbar__logo" src="assets/img/logo.svg" alt="logo" />
-                    <ul class="navbar__menu">
-                         <li class="navbar__menu-item"><a href="index.html">Home</a></li>
-                         <li class="navbar__menu-item"><a href="menu.html">Menu</a> </li>
-                         <li class="navbar__menu-item"><a href="nosotros.html">Nosotros</a></li>
-                         <li class="navbar__menu-item"><a href="contacto.html">Contacto</a></li>
-                    </ul>
-
-               </nav>
+   
+     <nav class="navbar">
+          <div>
+               <img class="navbar__logo" src="assets/img/logo.svg" alt="logo" />
+               <i id="botonMenuMobile" class="fa-solid fa-bars"></i>
           </div>
-          <!-- Inicio de Portada -->
-          <section class="portada"
+          
+          <ul class="navbar__menu__ocultar navbar__menu">
+               <li class="navbar__menu-item"><a href="index.html">Home</a></li>
+               <li class="navbar__menu-item"><a href="menu.html">Menu</a> </li>
+               <li class="navbar__menu-item"><a href="nosotros.html">Nosotros</a></li>
+               <li class="navbar__menu-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+</nav>
+
+<!-- Comienzo Header -->
+<header>
+<!-- Inicio de Portada -->
+                <section 
+                class="portada" 
                style="background: linear-gradient(to top , black, transparent),url('assets/img/header_nosotros.png');">
 
 
@@ -39,7 +45,7 @@
                     <p class="portada__texto"> NUESTRA CULTURA NOS IDENTIFICA. CONOCÉ QUIENES SOMOS Y POR QUÉ HACEMOS LO
                          QUE HACEMOS</p>
                </div>
-          </section>
+               </section>
 
           <!-- Final de Portada -->
 
@@ -53,36 +59,43 @@
                <div class="nosotros-flex container">
                     <img class="nosotros_img" src="assets/img/nosotros1.jpg" alt="cocinero">
 
-                     <div class="nosotros__texto">
-                         <p class="nosotros__texto-simple">A medidados de 2021 nos embarcamos en un viaje para reinventar las hamburguesas, y ...</p>
+                    <div class="nosotros__texto">
+                         <p class="nosotros__texto-simple">A medidados de 2021 nos embarcamos en un viaje para
+                              reinventar las hamburguesas, y ...</p>
                          <div class="nosotros__container-destacado">
                               <img src="assets/img/etiqueta_apertura.png " alt="apertura">
                               <h3 class="nosotros__texto-destacado">VOLVER MÁS RICO LO QUE YA ERA RICO.</h3>
                               <img src="assets/img/cierre_etiqueta.png " alt="cierre">
                          </div>
-                         
-                         <p class="nosotros__texto-simple">Es por eso que nuestras hamburguesas se realizan en el momento, con productos del más alto estándar de calidad y con el secreto de nuestras salsas CODEBURGUER, lo que las vuelve...</p>
-                         
+
+                         <p class="nosotros__texto-simple">Es por eso que nuestras hamburguesas se realizan en el
+                              momento, con productos del más alto estándar de calidad y con el secreto de nuestras
+                              salsas CODEBURGUER, lo que las vuelve...</p>
+
                          <div class="nosotros__container-destacado">
-                              <img src="assets/img/etiqueta_apertura.png " alt="apertura"> 
-                               <h3 class="nosotros__texto-destacado">¡LAS HAMBURGUESAS MÁS RICAS DE TODAS!</h3>
+                              <img src="assets/img/etiqueta_apertura.png " alt="apertura">
+                              <h3 class="nosotros__texto-destacado">¡LAS HAMBURGUESAS MÁS RICAS DE TODAS!</h3>
                               <img src="assets/img/cierre_etiqueta.png " alt="cierre">
                          </div>
                     </div>
 
-               
+
                     <div class="nosotros__texto">
-                         <p class="nosotros__texto-simple">Hoy seguimos innovando cada día con un nuevo concepto de hamburguesas, nuevas técnicas de cocción y sabores exclusivos, porque cocinar ¡es nuestra pasión!</p>
+                         <p class="nosotros__texto-simple">Hoy seguimos innovando cada día con un nuevo concepto de
+                              hamburguesas, nuevas técnicas de cocción y sabores exclusivos, porque cocinar ¡es nuestra
+                              pasión!</p>
                          <div class="nosotros__container-destacado">
                               <img src="assets/img/etiqueta_apertura.png " alt="apertura">
                               <h3 class="nosotros__texto-destacado">ENJOY LIFE, EAT BURGER</h3>
                               <img src="assets/img/cierre_etiqueta.png " alt="cierre">
                          </div>
-                         <p class="nosotros__texto-simple">Entendemos que las actividades que realizamos día a día pueden tener impacto en nuestra comunidad. Buscamos bajar el impacto ambiental realizando acciones que nos ayuden a </p>
-                         
+                         <p class="nosotros__texto-simple">Entendemos que las actividades que realizamos día a día
+                              pueden tener impacto en nuestra comunidad. Buscamos bajar el impacto ambiental realizando
+                              acciones que nos ayuden a </p>
+
                          <div class="nosotros__container-destacado">
-                              <img src="assets/img/etiqueta_apertura.png " alt="apertura"> 
-                               <h3 class="nosotros__texto-destacado">CUIDAR NUESTRO PLANETA</h3>
+                              <img src="assets/img/etiqueta_apertura.png " alt="apertura">
+                              <h3 class="nosotros__texto-destacado">CUIDAR NUESTRO PLANETA</h3>
                               <img src="assets/img/cierre_etiqueta.png " alt="cierre">
                          </div>
 
@@ -90,9 +103,9 @@
 
                     <img class="nosotros_img" src="assets/img/nosotros2.jpg" alt="enjoy">
 
-               </div>     
+               </div>
           </section>
-               
+
      </main>
 
      <footer>
@@ -102,7 +115,8 @@
                <div class="footer__columna">
                     <img src="assets/img/logo_code_base.svg" alt="" class="footer__marca-img">
                     <p class="footer__marca-texto">
-                         Buscamos la mejor experiencia para nuestros clientes, en un marco agradable para que puedas pasar un gran momento. <br> Veni y comprobalo vos mismo.
+                         Buscamos la mejor experiencia para nuestros clientes, en un marco agradable para que puedas
+                         pasar un gran momento. <br> Veni y comprobalo vos mismo.
                     </p>
                </div>
                <div class="footer__columna">
@@ -125,25 +139,28 @@
                     </div>
                </div>
                <div class="footer__columna">
-                   
+
                     <div class="footer__columna-datocontacto">
                          <h4 class="footer__columna-titulo">Direccion</h4>
-                         <p class="footer__columna-item"><i class="fa-solid fa-location-dot"></i>Av. Presidente Julio A. Roca 7823</p>
+                         <p class="footer__columna-item"><i class="fa-solid fa-location-dot"></i>Av. Presidente Julio A.
+                              Roca 7823</p>
                     </div>
                     <div class="footer__columna-datocontacto">
                          <h4 class="footer__columna-titulo">Seguinos</h4>
-                      
-                              <ul class="footer__columna-listaredes">
-                                   <li><a href="#"><i class="fa-brands fa-facebook footer__listaredes-item"></i></a></li>
-                                   <li><a href="#"><i class="fa-brands fa-tiktok footer__listaredes-item"></i></i></a></li>
-                                   <li><a href=""><i class="fa-brands fa-square-instagram footer__listaredes-item"></i></a></li>
-                                  
-                              </ul>
-                             
+
+                         <ul class="footer__columna-listaredes">
+                              <li><a href="#"><i class="fa-brands fa-facebook footer__listaredes-item"></i></a></li>
+                              <li><a href="#"><i class="fa-brands fa-tiktok footer__listaredes-item"></i></i></a></li>
+                              <li><a href=""><i class="fa-brands fa-square-instagram footer__listaredes-item"></i></a>
+                              </li>
+
+                         </ul>
+
                     </div>
                </div>
           </div>
      </footer>
+     <script src="js/menu.js"></script>
 </body>
 
 </html>
