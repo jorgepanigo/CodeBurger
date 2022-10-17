@@ -336,7 +336,9 @@ a:active{
 .promociones__card-detalletexto h5{
     margin: 5px;
     background-image: url("../assets/img/fondo_texto_destacado.png");
+    background-repeat: no-repeat;
     background-image: cover;
+    background-size: cover;
     font-size: 2rem;
     padding-top: 4px;
     color:var(--amarillo);
@@ -983,6 +985,12 @@ video{
         
     }
 
+    .promociones__card-detalletexto h5{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1.6rem;
+    }
+
     .promociones__card-detalle{     
         
         width: 100%;
@@ -992,12 +1000,12 @@ video{
         align-items: center;
         clip-path: none;
         border-radius: 0px 0px 0px 0px;
+        padding:0px 0px 20px 0px;
 
     }
-    /* .promociones__card-detalle:last-child{
-        width: 100%;
-    }   */
-
+    .promociones__card-code{
+        display: none;
+    }
     
 
     
