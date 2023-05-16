@@ -245,10 +245,12 @@ header{
     font-size: 1.4rem; 
     font-family: var(--oswald);
     font-weight: 200;
+   
 }
 
  a{
     color: var(--amarillo);
+     text-decoration: none;
 }
 
 a:active{
@@ -1380,3 +1382,10 @@ video{
 
 /*Fin Responsive*/
 
+/*Inicio Blog*/
+
+.card{
+    background-color: none !important; 
+}
+
+/*Fin Blog*/

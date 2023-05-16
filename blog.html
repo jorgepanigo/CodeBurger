@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/estilos.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+     <title>CodeBurger</title>
+</head>
+
+<body>
+
+     <nav class="navbar">
+          <div>
+               <img class="navbar__logo" src="assets/img/logo.svg" alt="logo" style="margin:-80px 0px 0px 60px;"/>
+               <i id="botonMenuMobile" class="fa-solid fa-bars"></i>
+          </div>
+
+          <ul class="navbar__menu__ocultar navbar__menu">
+               <li class="navbar__menu-item"><a href="index.html">Home</a></li>
+               <li class="navbar__menu-item"><a href="menu.html">Menu</a> </li>
+               <li class="navbar__menu-item"><a href="nosotros.html">Nosotros</a></li>
+               <li class="navbar__menu-item"><a href="blog.html">Blog</a></li>
+               <li class="navbar__menu-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+     </nav>
+
+     <!-- Comienzo Header -->
+     <header>
+          <!-- Inicio de Portada -->
+          <section class="portada"
+               style="background: linear-gradient(to top , black, transparent),url('assets/img/header_contacto.png');">
+
+
+               <div class="portada__contenido">
+                    <h1 class="portada__titulo">Blog</h1>
+                    <div class="portada__hr"></div>
+                    <p class="portada__texto"> ARTICULOS INTERESANTES PARA LOS AMANTES DE LAS HAMBURGUESAS</p>
+               </div>
+          </section>
+
+          <!-- Final de Portada -->
+     </header>
+
+     <!-- Fin header -->
+
+     <main>
+          <div class="nosotros__fondo"></div>
+          <!-- Comienzo de Blog -->
+
+          <!-- <section class="contacto">
+               <div class="container contacto__flex">
+                    <div class="contacto__vias">
+                       <h3 class="contacto__vias-titulo">NUESTRAS VIAS DE COMUNICACION</h3>
+                       <p class="contacto__vias-texto"><i class="fa-solid fa-location-pin"> </i> Av. Presidente Julio A. Roca 782 - C1067 ABP - Buenos Aires <br><i class="fa-solid fa-phone"></i> Tel. 011 4342-0278 <br><i class="fa-brands fa-whatsapp"></i>  Whatsapp. 011 4342-0278</p>
+                       <h3 class="contacto__vias-titulo">SEGUINOS</h3>
+                       <p class="contacto__vias-texto">
+                         <i class="fa-brands fa-instagram"></i> @BurgerCodeOK<br> 
+                         <i class="fa-brands fa-facebook"></i> BurgerCodeOK <br> 
+                         <i class="fa-brands fa-tiktok"></i> @BurgerCode</p>      
+                    </div>
+                    <div class="contacto__vias">
+                         <h3 class="contacto__vias-titulo">DEJANOS TU COMENTARIO O SUGERENCIA</h3>
+                         <form id="form" class="contacto__form">
+                              <div class="contacto__group">
+                                   <label class="contacto__form-label">Nombre y apellido</label>
+                                   <input  type="text" class="contacto__form-input" name="to_name">
+                              </div>
+                              
+                              <div class="contacto__group">
+                                   <label class="contacto__form-label">Correo electrónico</label>
+                                   <input  type="text" class="contacto__form-input" name="client_mail">
+                              </div>
+
+                              <div class="contacto__group">
+                                   <label class="contacto__form-label">Dejanos tu comentario</label>
+                                   <textarea  type="text" rows="20" col="100" class="contacto__form-input contacto__textArea" name="message"></textarea>
+                              </div>
+
+                              <input type="submit" class="contacto__button" value="ENVIAR">
+
+
+                         </form>
+
+
+
+                    </div>
+               </div>
+          </section>
+          <section class="mapa">
+               <div class="container mapa__flex">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d895.4720682440013!2d-58.430436655348!3d-34.5888271093132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1665170824416!5m2!1ses-419!2sar" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+          </section> -->
+
+          <div class="container contacto__flex mt-5">
+
+               <!-- Inicio Articulo -->
+               <div class="card mb-3 bg-dark p-2">
+                    <div class="row g-0">
+                         <div class="col-md-3">
+                              <img src="assets/img/hamburguesa1.png" class="img-fluid rounded-start" alt="..."
+                                   width="250">
+                         </div>
+                         <div class="col-md-9">
+                              <div class="card-body">
+                                   <h5 class="card-title nosotros__texto-simple text-start">10 curiosidades sobre la
+                                        hamburguesa que probablemente no conocías</h5>
+                                   <p class="card-text contacto__vias-texto">En este artículo, podrías compartir datos
+                                        interesantes y poco conocidos sobre la historia, el origen y la evolución de la
+                                        hamburguesa. Por ejemplo, ¿sabías que la hamburguesa se originó en la ciudad de
+                                        Hamburgo, Alemania, y que fue popularizada en los Estados Unidos a principios
+                                        del siglo XX?.</p>
+                                        <div class="card-footer">
+                                             <a href="#" class="card-link contacto__button text-black" data-bs-toggle="modal" data-bs-target="#blog1">Leer Mas...</a>
+                                        </div>
+                                   
+
+                              </div>
+                         </div>
+                    </div>
+
+               <!-- Modal -->
+                    <div class="modal fade modal-lg" id="blog1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                         <div class="modal-dialog modal-dialog-scrollable" >
+                         <div class="modal-content bg-dark">
+                         <div class="modal-header">
+                              <h1 class="modal-title fs-2 nosotros__texto-simple text-white text-start" id="exampleModalLabel">10 curiosidades sobre la
+                                   hamburguesa que probablemente no conocías</h1>
+                              <button type="button" class="btn-close alert" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body ">
+                              
+                              <p class="contacto__vias-texto text-white">La hamburguesa es uno de los alimentos más populares y consumidos en todo el mundo. 
+                                   Sin embargo, su historia y evolución son menos conocidas. En este artículo, descubriremos diez curiosidades interesantes 
+                                   sobre la hamburguesa que probablemente no conocías.
+                                   <img src="assets/img/hamburguesa1.png" alt="" width="100%" class="p-4">
+                              <ul class="contacto__vias-texto text-white">
+                                   <li>La hamburguesa se originó en la ciudad de Hamburgo, Alemania. La carne molida se mezclaba con cebolla y se servía con pan, pero no se le agregaba queso</li>
+                                   <li> La hamburguesa se popularizó en los Estados Unidos a principios del siglo XX, en parte debido a la disponibilidad de 
+                              carne de vaca de alta calidad.</li> 
+                                   <li>La hamburguesa se hizo famosa en todo el mundo gracias a la cadena de comida 
+                                   rápida McDonald's, que abrió su primer restaurante en 1940 en San Bernardino, California</li>
+                                   <li>El tamaño promedio de una hamburguesa en los Estados Unidos ha aumentado constantemente desde la década de 1950, pasando de 
+    alrededor de 3.9 onzas en 1950 a 6.6 onzas en 2012.</li>
+                                   <li>En 2017, se celebró en Hamburgo, Alemania, el primer Campeonato Mundial de Hamburguesas, en el que los chefs compitieron por el 
+    título de la mejor hamburguesa del mundo.</li>
+                                   <li>El récord mundial Guinness para la hamburguesa más grande del mundo se estableció en 2012 en Minnesota, Estados Unidos. 
+    La hamburguesa pesaba 2,014 libras y medía 10 pies de diámetro.</li>
+                                   <li>Una de las hamburguesas más caras del mundo se llama "FleurBurger 5000" y se sirve en el restaurante Fleur de Lys en Las Vegas, Nevada. Esta 
+    hamburguesa de lujo cuesta $5,000 y se sirve con una botella de vino Château Pétrus de 1995.</li>
+                                   <li>En la película "Pulp Fiction" de Quentin Tarantino, el personaje de John Travolta pide una hamburguesa "Royale con 
+    queso" en un restaurante de comida rápida de París. Esto se debe a que el nombre de "Quarter Pounder with Cheese" 
+    de McDonald's se cambia en los países de habla francesa.</li>
+                                   <li>La hamburguesa es tan popular que incluso hay festivales de hamburguesas en todo el mundo. Por ejemplo, 
+    el "Burger Fest" se celebra en London, Ontario, mientras que el "Burgerama" se celebra en el Parque 
+    de Atracciones de Knott en California.</li>
+                                   <li>En 2001, una hamburguesa comprada en un McDonald's de Islandia se conservó durante 14 años 
+    antes de que finalmente se descompusiera. La hamburguesa, que se había mantenido 
+    en su empaque original, se convirtió en un objeto de interés científico y se exhibió en el Museo Nacional de Islandia</li>
+                                   <li>Como puedes ver, la hamburguesa tiene una historia rica y fascinante. Ya sea que la disfrutes en un restaurante 
+de comida rápida o en un restaurante de lujo, la hamburguesa es un alimento querido y apreciado en todo el mundo.</li>
+
+                              </ul>
+                              </p>
+
+
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn contacto__button" data-bs-dismiss="modal">Volver</button>
+                           
+                         </div>
+                         </div>
+                         </div>
+                    </div>
+   
+               </div>
+               <!-- Fin Articulo -->
+               <!-- Inicio Articulo -->
+               <div class="card mb-3 bg-dark p-2">
+                    <div class="row g-0">
+                         <div class="col-md-3">
+                              <img src="assets/img/hamburguesa2.png" class="img-fluid rounded-start" alt="..."
+                                   width="250">
+                         </div>
+                         <div class="col-md-9">
+                              <div class="card-body">
+                                   <h5 class="card-title nosotros__texto-simple text-start">La mejor manera de cocinar hamburguesas en casa</h5>
+                                   <p class="card-text contacto__vias-texto">En este artículo, podrías proporcionar consejos útiles sobre cómo cocinar hamburguesas perfectas en casa, incluyendo cómo elegir la carne adecuada, cómo preparar las hamburguesas y cómo cocinarlas a la perfección en la parrilla o en la sartén.</p>
+                                        <div class="card-footer">
+                                             <a href="#" class="card-link contacto__button text-black" data-bs-toggle="modal" data-bs-target="#blog2">Leer Mas...</a>
+                                        </div>
+                                   
+
+                              </div>
+                         </div>
+                    </div>
+
+               <!-- Modal -->
+                    <div class="modal fade modal-lg" id="blog2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                         <div class="modal-dialog modal-dialog-scrollable" >
+                         <div class="modal-content bg-dark">
+                         <div class="modal-header">
+                              <h1 class="modal-title fs-2 nosotros__texto-simple text-white text-start" id="exampleModalLabel">La mejor manera de cocinar hamburguesas en casa</h1>
+                              <button type="button" class="btn-close alert" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body ">
+                              
+                              <p class="contacto__vias-texto text-white">
+
+                                   La hamburguesa es un plato icónico que se ha convertido en una opción popular en todo el mundo. Pero, ¿cómo se puede preparar la hamburguesa perfecta en casa? A continuación, te presentamos 10 consejos para preparar la hamburguesa perfecta:
+                              </p>
+                              <img src="assets/img/hamburguesa2.png" alt="" width="100%" class="p-4">
+                              <p class="contacto__vias-texto text-white">
+                                   Elige la carne adecuada: La elección de la carne es clave para preparar una hamburguesa sabrosa
+                                    y jugosa. Es importante elegir una carne que tenga un alto contenido de grasa, como la carne
+                                     molida de res de 80/20. La carne magra tiende a secarse durante la cocción y no se pegará bien.
+                                   
+                                   No manipules demasiado la carne: La carne de hamburguesa se debe manipular lo menos posible 
+                                   para evitar que se compacte demasiado. Forma las hamburguesas suavemente con las manos y evita
+                                    apretarlas demasiado. <br>
+                                   Haz una hendidura en el centro de la hamburguesa: Una hendidura en el centro de la hamburguesa
+                                    ayudará a que se cocine de manera uniforme y evitará que se abulte.<br>
+                               
+                                   Añade ingredientes a la mezcla de la carne: Añadir ingredientes como queso rallado, cebolla
+                                    picada, ajo, mostaza, salsa Worcestershire, o cualquier otra especia o condimento que prefieras,
+                                     le dará más sabor a la hamburguesa.<br>
+                               
+                                   Prepara la parrilla: Para preparar la parrilla, calienta la parrilla a fuego medio-alto durante
+                                    10-15 minutos y cepilla las parrillas con aceite vegetal para evitar que la carne se pegue.<br>
+                               
+                                   Cocina la hamburguesa a fuego medio-alto: Cocina la hamburguesa a fuego medio-alto durante unos
+                                    3-5 minutos por cada lado, dependiendo del grosor de la hamburguesa y de tu preferencia de cocción.<br>
+                               
+                                   No presiones la hamburguesa: No presiones la hamburguesa mientras se cocina, ya que esto hará
+                                    que los jugos se escapen y la hamburguesa se seque.<br>
+                               
+                                   Añade queso derretido: Si deseas agregar queso a tu hamburguesa, añade una rebanada de 
+                                   queso en los últimos minutos de cocción y cierra la parrilla para que se derrita.<br>
+                               
+                                   Calienta los bollos: Calienta los bollos en la parrilla o en una sartén antes de servir. 
+                                   Esto le dará un toque extra de sabor y textura.<br>
+                               
+                                   Agrega tus condimentos y guarniciones favoritas: Agrega tus condimentos y guarniciones 
+                                   favoritas a tu hamburguesa. Desde lechuga y tomate hasta tocino y aguacate, las opciones son infinitas.<br>
+                               
+                               Siguiendo estos 10 consejos, podrás preparar la hamburguesa perfecta en casa para disfrutar 
+                               con familiares y amigos. Recuerda que la clave es elegir una buena carne y no manipularla demasiado, 
+                               además de añadir ingredientes a la mezcla de carne y cocinarla correctamente.<br>
+                              </p>
+
+                                   
+ 
+                               
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                             <button type="button" class="btn contacto__button" data-bs-dismiss="modal">Volver</button>
+                                                          
+                              </p>
+
+                         </div>
+                         </div>
+                         </div>
+                    </div>
+   
+               </div>
+               <!-- Fin Articulo -->
+               
+               <!-- Inicio Articulo -->
+               <div class="card mb-3 bg-dark p-2">
+                    <div class="row g-0">
+                         <div class="col-md-3">
+                              <img src="assets/img/hamburguesa3.png" class="img-fluid rounded-start" alt="..."
+                                   width="250">
+                         </div>
+                         <div class="col-md-9">
+                              <div class="card-body">
+                                   <h5 class="card-title nosotros__texto-simple text-start">Las hamburguesas mas creativas del mundo</h5>
+                                   <p class="card-text contacto__vias-texto">                                   En este artículo te hablaré sobre algunas de las hamburguesas más creativas e innovadoras que se pueden encontrar en todo el mundo. Desde hamburguesas con ingredientes inusuales hasta hamburguesas con formas y presentaciones únicas, aquí tienes una lista de algunas de las hamburguesas más creativas que se han inventado.
+                                   </p>
+                                        <div class="card-footer">
+                                             <a href="#" class="card-link contacto__button text-black" data-bs-toggle="modal" data-bs-target="#blog3">Leer Mas...</a>
+                                        </div>
+                                   
+
+                              </div>
+                         </div>
+                    </div>
+
+               <!-- Modal -->
+                    <div class="modal fade modal-lg" id="blog3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                         <div class="modal-dialog modal-dialog-scrollable" >
+                         <div class="modal-content bg-dark">
+                         <div class="modal-header">
+                              <h1 class="modal-title fs-2 nosotros__texto-simple text-white text-start" id="exampleModalLabel">Las hamburguesas mas creativas del mundo</h1>
+                              <button type="button" class="btn-close alert" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body ">
+                              
+                              <p class="contacto__vias-texto text-white">
+                                   En este artículo te hablaré sobre algunas de las hamburguesas más creativas e innovadoras que se pueden encontrar en todo el mundo. Desde hamburguesas con ingredientes inusuales hasta hamburguesas con formas y presentaciones únicas, aquí tienes una lista de algunas de las hamburguesas más creativas que se han inventado.
+
+                                   <img src="assets/img/hamburguesa3.png" alt="" width="100%" class="p-4">
+
+    La hamburguesa de ramen: Esta hamburguesa proviene de Japón y en lugar de pan, la carne se coloca entre 
+    dos bloques de fideos ramen fritos. Además, se sirve con aderezo de miso y salsa de soja. <br>
+
+    La hamburguesa de queso de cabra y huevo frito: Esta hamburguesa proviene de Nueva York y presenta
+     una hamburguesa de carne de res cubierta con queso de cabra, una cebolla frita, tocino y un huevo frito encima.<br>
+
+    La hamburguesa de cangrejo: Esta hamburguesa proviene de Maryland y se hace con carne de cangrejo fresca. 
+    Se suele servir en un panecillo de brioche con lechuga y tomate.<br>
+
+    La hamburguesa de alitas de pollo: Esta hamburguesa proviene de Pensilvania y se hace con carne de pollo 
+    molida y luego se mezcla con alitas de pollo deshuesadas y desmenuzadas. Se suele servir con aderezo ranchero y apio.<br>
+
+
+    La hamburguesa de macarrones con queso: Esta hamburguesa proviene de Las Vegas y se hace con carne de res, macarrones
+     con queso y tocino. Se sirve en un pan brioche con lechuga y tomate.<br>
+
+    La hamburguesa de lentejas: Esta hamburguesa es una alternativa vegetariana y se hace con lentejas, cebolla, 
+    ajo y especias. Se suele servir con aguacate, cebolla roja y una mayonesa de chipotle.<br>
+
+    La hamburguesa con forma de corazón: Esta hamburguesa es popular en algunos restaurantes de San Valentín
+     y se hace con carne de res molida y se corta en forma de corazón. Se suele servir en un pan brioche con queso, lechuga y tomate.<br>
+
+    La hamburguesa de conejo: Esta hamburguesa es popular en algunos restaurantes europeos y se hace con carne de conejo molida. 
+    Se suele servir en un panecillo con queso de cabra y una salsa de mostaza y miel.<br>
+
+    La hamburguesa de sushi: Esta hamburguesa proviene de Japón y se hace con carne de res y se sirve en un panecillo
+     de arroz con ingredientes de sushi como aguacate, pepino y salsa de soja.<br>
+
+    La hamburguesa de pato con foie gras: Esta hamburguesa es popular en algunos restaurantes franceses y se hace 
+    con carne de pato y foie gras. Se suele servir en un panecillo de brioche con una cebolla caramelizada y una reducción de vino tinto.<br>
+
+En resumen, estas son solo algunas de las hamburguesas más creativas e innovadoras que se pueden encontrar en todo el mundo. Desde 
+la hamburguesa de ramen hasta la hamburguesa de pato con foie gras, estas hamburguesas demuestran que el límite en la creatividad no existe.<br>
+                                  
+                              </p>
+
+
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn contacto__button" data-bs-dismiss="modal">Volver</button>
+                           
+                         </div>
+                         </div>
+                         </div>
+                    </div>
+   
+               </div>
+               <!-- Fin Articulo -->
+
+                              <!-- Inicio Articulo -->
+                              <div class="card mb-3 bg-dark p-2">
+                                   <div class="row g-0">
+                                        <div class="col-md-3">
+                                             <img src="assets/img/hamburguesa4.png" class="img-fluid rounded-start" alt="..."
+                                                  width="250">
+                                        </div>
+                                        <div class="col-md-9">
+                                             <div class="card-body">
+                                                  <h5 class="card-title nosotros__texto-simple text-start">Hamburguesas Saludables</h5>
+                                                  <p class="card-text contacto__vias-texto">                                                  Si bien las hamburguesas son una de las comidas más populares del mundo, también son conocidas por ser altas en calorías y grasas. Sin embargo, eso no significa que tengas que renunciar a ellas para seguir una dieta saludable. En este artículo, te presentaré algunas opciones de hamburguesas saludables que puedes disfrutar sin culpa.
+                                                  </p>
+                                                       <div class="card-footer">
+                                                            <a href="#" class="card-link contacto__button text-black" data-bs-toggle="modal" data-bs-target="#blog4">Leer Mas...</a>
+                                                       </div>
+                                                  
+               
+                                             </div>
+                                        </div>
+                                   </div>
+               
+                              <!-- Modal -->
+                                   <div class="modal fade modal-lg" id="blog4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                                        <div class="modal-dialog modal-dialog-scrollable" >
+                                        <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                             <h1 class="modal-title fs-2 nosotros__texto-simple text-white text-start" id="exampleModalLabel">Hamburguesas Saludables</h1>
+                                             <button type="button" class="btn-close alert" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                             
+                                             <p class="contacto__vias-texto text-white">
+                                                                 Si bien las hamburguesas son una de las comidas más populares del mundo, también son conocidas por ser altas en calorías y grasas. Sin embargo, eso no significa que tengas que renunciar a ellas para seguir una dieta saludable. En este artículo, te presentaré algunas opciones de hamburguesas saludables que puedes disfrutar sin culpa.
+
+                                                  <img src="assets/img/hamburguesa4.png" alt="" width="100%" class="p-4">
+               
+
+    Hamburguesas de pavo: Las hamburguesas de pavo son una excelente alternativa a las hamburguesas de carne de res, 
+    ya que son bajas en grasas y calorías. Además, el pavo es una buena fuente de proteína magra. Puedes condiment
+    arlas con hierbas frescas y especias para darles sabor.<br>
+
+    Hamburguesas de salmón: El salmón es una excelente fuente de proteínas y ácidos grasos omega-3 saludables para 
+    el corazón. Puedes mezclar salmón fresco con algunos ingredientes como cebolla, ajo, jugo de limón y un poco de 
+    pan rallado para formar las hamburguesas.<br>
+
+    Hamburguesas vegetarianas: Las hamburguesas vegetarianas están hechas de ingredientes como legumbres, verduras y 
+    granos, y son una excelente opción para aquellos que siguen una dieta vegetariana o vegana. Puedes hacer hamburguesas
+     de lentejas, garbanzos o quinoa. Para darles sabor, agrega tus especias y hierbas favoritas.<br>
+
+    Hamburguesas de pollo a la parrilla: El pollo es una buena fuente de proteínas y menos grasiento que la carne de res. 
+    Para hacer hamburguesas de pollo a la parrilla, utiliza pechugas de pollo molidas o muslos deshuesados y mezcla con 
+    cebolla, ajo y especias como orégano, tomillo o paprika.<br>
+
+    Hamburguesas de frijoles negros: Los frijoles negros son una excelente fuente de proteínas y fibra, y se pueden 
+    mezclar con otros ingredientes como cebolla, ajo y comino para formar una hamburguesa deliciosa y saludable. Para
+     un extra de sabor, agrega pimiento rojo asado o jalapeños picados.<br>
+
+    Hamburguesas de atún: El atún es una buena fuente de proteínas y ácidos grasos omega-3. Puedes mezclar atún fresco 
+    con un poco de pan rallado, huevo y cebolla picada para hacer hamburguesas deliciosas y saludables.<br>
+
+    Hamburguesas de verduras a la parrilla: Las verduras a la parrilla pueden ser una excelente opción para una hamburguesa 
+    saludable. Corta rodajas de calabacín, berenjena, pimiento y cebolla y cocínalas a la parrilla. Agrega queso y un
+     panecillo para crear una hamburguesa de verduras deliciosa y saludable.<br>
+
+En resumen, estas son solo algunas de las opciones de hamburguesas saludables que puedes disfrutar sin renunciar al sabor.
+ Desde hamburguesas de pavo y salmón hasta hamburguesas vegetarianas y de frijoles negros, hay muchas opciones saludables 
+ y deliciosas para elegir. Así que la próxima vez que tengas ganas de una hamburguesa, considera probar una de estas opciones saludables.<br>
+                                                 
+                                             </p>
+               
+               
+                                        </div>
+                                        <div class="modal-footer">
+                                             <button type="button" class="btn contacto__button" data-bs-dismiss="modal">Volver</button>
+                                          
+                                        </div>
+                                        </div>
+                                        </div>
+                                   </div>
+                  
+                              </div>
+                              <!-- Fin Articulo -->
+
+          </div>
+     </main>
+
+     <footer>
+
+          <div class="container footer__flex">
+
+
+               <div class="footer__columna">
+                    <img src="assets/img/logo_code_base.svg" alt="" class="footer__marca-img">
+                    <p class="footer__marca-texto">
+                         Buscamos la mejor experiencia para nuestros clientes, en un marco agradable para que puedas
+                         pasar un gran momento. <br> Veni y comprobalo vos mismo.
+                    </p>
+               </div>
+               <div class="footer__columna">
+                    <h4 class="footer__columna-titulo">Soporte</h4>
+                    <ul class="footer__columna-lista">
+                         <li class="footer__columna-item">FAQs</li>
+                         <li class="footer__columna-item">Politica de Privacidad</li>
+                         <li class="footer__columna-item">Terminos y Condiciones</li>
+                         <li class="footer__columna-item">Medios de Pagos</li>
+                    </ul>
+               </div>
+               <div class="footer__columna">
+                    <div class="footer__columna-datocontacto">
+                         <h4 class="footer__columna-titulo">Telefono</h4>
+                         <p class="footer__columna-item"><i class="fa-solid fa-phone"></i>+54-11-4534-2343</p>
+                    </div>
+                    <div class="footer__columna-datocontacto">
+                         <h4 class="footer__columna-titulo">eMail</h4>
+                         <p class="footer__columna-item"><i class="fa-solid fa-envelope"></i> info@codeburger.com</p>
+                    </div>
+               </div>
+               <div class="footer__columna">
+
+                    <div class="footer__columna-datocontacto">
+                         <h4 class="footer__columna-titulo">Direccion</h4>
+                         <p class="footer__columna-item"><i class="fa-solid fa-location-dot"></i>Av. Presidente Julio A.
+                              Roca 7823</p>
+                    </div>
+                    <div class="footer__columna-datocontacto">
+                         <h4 class="footer__columna-titulo">Seguinos</h4>
+
+                         <ul class="footer__columna-listaredes">
+                              <li><a href="#"><i class="fa-brands fa-facebook footer__listaredes-item"></i></a></li>
+                              <li><a href="#"><i class="fa-brands fa-tiktok footer__listaredes-item"></i></i></a></li>
+                              <li><a href=""><i class="fa-brands fa-square-instagram footer__listaredes-item"></i></a>
+                              </li>
+
+                         </ul>
+
+                    </div>
+               </div>
+          </div>
+
+     </footer>
+     <script src="js/mail.js"></script>
+     <script src="js/menu.js"></script>
+     |
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>
